@@ -1,0 +1,16 @@
+﻿<Window x:Class="solodkaya_lab3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:solodkaya_lab3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <StackPanel>
+            <TextBox x:Name="DateTextBox" Text="2022.10.15" Margin="10"/>
+            <Button Content="Create Date" Click="CreateDateButton_Click" Margin="10"/>
+            <TextBox x:Name="ResultTextBox" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
